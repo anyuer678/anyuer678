@@ -48,15 +48,6 @@
 
 ---
 
-### GitHub 缁熻
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anyuer678&show_icons=true&theme=radical" alt="GitHub Stats" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anyuer678&layout=compact&theme=radical" alt="Top Languages" height="160">
-</p>
-
----
-
 <p align="center">
   <em>"鎴戠浉淇¤蒋浠朵笉鏄竴娆″啓鎴愮殑浣滃搧锛岃€屾槸鍦ㄤ笉鏂娇鐢ㄥ拰淇敼涓垚闀跨殑绯荤粺銆?</em>
 </p>
