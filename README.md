@@ -19,16 +19,16 @@
 <table>
   <tr>
     <td width="50%">
+      <h3><a href="https://github.com/anyuer678/polycodehub">PolycodeHub</a></h3>
+      <p>全栈在线判题平台（OJ）</p>
+      <p><code>Next.js</code> <code>Express</code> <code>Spring Boot</code> <code>FastAPI</code></p>
+      <p>seccomp/rlimit 进程级判题沙箱 · 多语言题判 · 消息队列异步判题</p>
+    </td>
+    <td width="50%">
       <h3><a href="https://github.com/anyuer678/lumen">Lumen · 流明</a></h3>
       <p>24/7 常驻运行的个人 AI Agent Runtime</p>
       <p><code>Go</code> <code>React</code> <code>AI</code></p>
-      <p>记忆 · 推理 · 工具调用 · 计算机操作</p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/anyuer678/yuer.dev">Yuer Studio</a></h3>
-      <p>个人作品集与数字花园</p>
-      <p><code>Vue 3</code> <code>Vite</code> <code>GitHub Pages</code></p>
-      <p>60+ 笔记 · 23 个项目 · 14 份规范文档</p>
+      <p>记忆 · 推理 · 工具调用 · 权限分级与人工确认流</p>
     </td>
   </tr>
 </table>
@@ -42,11 +42,11 @@
 | [developer-intelligence](https://github.com/anyuer678/developer-intelligence) | 让 AI Agent 深度理解你的代码仓库 | Python |
 | [chatez](https://github.com/anyuer678/chatez) | 可配置 Prompt + Skill 的 AI 工作台 | TypeScript |
 | [evocode](https://github.com/anyuer678/evocode) | AI 软件体检与演化平台 | Java + Vue |
-| [kb-ui](https://github.com/anyuer678/kb-ui) | 55+ 组件的 Vue 3 组件库 | Vue 3 |
-| [desktoppet](https://github.com/anyuer678/desktoppet) | 可扩展桌面宠物平台 | Electron |
+| [kb-ui](https://github.com/anyuer678/kb-ui) | 56 组件 · 46 主题的 Vue 3 组件库（[npm: kb-ui-vue](https://www.npmjs.com/package/kb-ui-vue)） | Vue 3 |
+| [desktoppet](https://github.com/anyuer678/desktoppet) | 可扩展桌面宠物平台（450 例测试） | Electron |
+| [keyvault](https://github.com/anyuer678/keyvault) | 个人 API 密钥保险箱（AES-256-GCM 本地加密） | Python |
 | [voiceconsole](https://github.com/anyuer678/voiceconsole) | 语音指令控制台 MCP | Python |
-| [picren](https://github.com/anyuer678/picren) | 图片批量 AI 重命名器 | Python |
-| [dsh-logtimeline](https://github.com/anyuer678/dsh-logtimeline) | 自然语言日志查询器 | Python |
+| [dsh-logtimeline](https://github.com/anyuer678/dsh-logtimeline) | 中文自然语言日志时间查询（已收录 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)） | Python |
 
 ---
 
