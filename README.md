@@ -69,6 +69,7 @@
 | [spotlight-wallpaper](https://github.com/anyuer678/spotlight-wallpaper) | `local-tool` | Windows 聚光壁纸（MIT） | Python |
 | [huayinlaoqiang](https://github.com/anyuer678/huayinlaoqiang) | `portfolio` | 非遗展示站（代码 MIT；媒体见 CREDITS） | HTML |
 | [eclipse-wasteland](https://github.com/anyuer678/eclipse-wasteland) | `portfolio` | Three.js 浏览器射击游戏 | TypeScript |
+| [design-assets](https://github.com/anyuer678/design-assets) | `engine` | AI 设计素材库骨架（24 风格 meta + 画风纪律 + 视觉圣经） | CC0 |
 | [ai-toolbox](https://github.com/anyuer678/ai-toolbox) | `local-tool` | 本地 AI 工具用量监控 | Python |
 | [todo-list](https://github.com/anyuer678/todo-list) 等 | `archived` | 学习仓 / 上游工具归档 | — |
 
@@ -79,6 +80,7 @@
 - 安全：lumen 权限硬化、voiceconsole 确认权拆分、keyvault step-up、polycodehub prod compose  
 - 诚实：DI / evocode / upgrademate 声明与能力对齐  
 - 治理：LICENSE 补齐、威胁模型、Issue 跟踪  
+- 素材：[design-assets](https://github.com/anyuer678/design-assets)（文档层引用，不改产品画风）  
 
 ---
 
