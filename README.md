@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://anyuer678.github.io/yuer.dev/"><img alt="site" src="https://img.shields.io/badge/%E6%A1%88%E4%BE%8B%E7%AB%99-yuer.dev-8b5cf6"></a>
   <a href="https://github.com/anyuer678?tab=repositories"><img alt="repos" src="https://img.shields.io/badge/public_repos-28-blue"></a>
   <img alt="status" src="https://img.shields.io/badge/portfolio-quality%20pass-lightgrey">
 </p>
@@ -36,6 +37,7 @@
       <p><code>Next.js</code> <code>Express</code> <code>Spring Boot</code> <code>FastAPI</code></p>
       <p>seccomp/rlimit 进程级沙箱 · RabbitMQ 异步判题 · prod compose 不对宿主暴露中间件</p>
       <p>非生产就绪 · 沙箱为黑名单进程级隔离，非多租户容器</p>
+      <p>▸ <a href="https://anyuer678.github.io/polycodehub/">在线演示</a></p>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/anyuer678/lumen">Lumen · 流明</a> <code>portfolio</code></h3>
@@ -56,22 +58,22 @@
 | [dsh-logtimeline](https://github.com/anyuer678/dsh-logtimeline) | `engine` | 中文自然语言日志时间查询（DSH 插件） | Python |
 | [keyvault](https://github.com/anyuer678/keyvault) | `local-tool` | API 密钥保险箱（AES-256-GCM + step-up Web） | Python |
 | [voiceconsole](https://github.com/anyuer678/voiceconsole) | `local-tool` | 语音指令 MCP（本机确认权 + 路径沙箱） | Python |
-| [evocode](https://github.com/anyuer678/evocode) | `local-tool` | 软件体检：规则扫描为主，LLM 可选 | Java + Vue + Python |
+| [evocode](https://github.com/anyuer678/evocode) | `local-tool` | 软件体检：规则扫描为主，LLM 可选（[在线](https://anyuer678.github.io/evocode/)） | Java + Vue + Python |
 | [developer-intelligence](https://github.com/anyuer678/developer-intelligence) | `engine` | 仓库静态解析引擎（零 LLM）；GH collector **P0 未交付** | Python |
-| [chatez](https://github.com/anyuer678/chatez) | `portfolio` | Prompt + Skill 的 AI 客户端工作台（纯前端） | TypeScript |
-| [kb-ui](https://github.com/anyuer678/kb-ui) | `portfolio` | Vue 3 组件库 **73** 组件 · 46 主题 · npm 四件套：[kb-ui-vue](https://www.npmjs.com/package/kb-ui-vue) · [@yuer678/kb-utils](https://www.npmjs.com/package/@yuer678/kb-utils) · [@yuer678/kb-api](https://www.npmjs.com/package/@yuer678/kb-api) · [@yuer678/create-kb](https://www.npmjs.com/package/@yuer678/create-kb) | Vue 3 |
+| [chatez](https://github.com/anyuer678/chatez) | `portfolio` | Prompt + Skill 的 AI 客户端工作台（纯前端，[在线](https://anyuer678.github.io/chatez/)） | TypeScript |
+| [kb-ui](https://github.com/anyuer678/kb-ui) | `portfolio` | Vue 3 组件库 **73** 组件 · 46 主题 · npm 四件套：[kb-ui-vue](https://www.npmjs.com/package/kb-ui-vue) · [@yuer678/kb-utils](https://www.npmjs.com/package/@yuer678/kb-utils) · [@yuer678/kb-api](https://www.npmjs.com/package/@yuer678/kb-api) · [@yuer678/create-kb](https://www.npmjs.com/package/@yuer678/create-kb)（[在线](https://anyuer678.github.io/kb-ui/)） | Vue 3 |
 | [desktoppet](https://github.com/anyuer678/desktoppet) | `portfolio` | Electron 桌宠平台（角色包解耦；单测 **481** 例 + 覆盖率门禁） | Electron |
-| [codedrill](https://github.com/anyuer678/codedrill) | `portfolio` | 离线编程训练（SRS）；多端完成度不一 | Vue + Electron |
+| [codedrill](https://github.com/anyuer678/codedrill) | `portfolio` | 离线编程训练（SRS）；多端完成度不一（[在线](https://anyuer678.github.io/codedrill/)） | Vue + Electron |
 | [upgrademate](https://github.com/anyuer678/upgrademate) | `local-tool` | 行级正则升级**检查清单**（非 AST 迁移） | Python |
 | [picren](https://github.com/anyuer678/picren) | `local-tool` | 图片批量 AI 重命名（默认 dry-run） | Python |
 | [stargrave](https://github.com/anyuer678/stargrave) | `local-tool` | GitHub star 清理建议器 | Python |
-| [yuer.dev](https://github.com/anyuer678/yuer.dev) | `portfolio` | 个人作品集 / 数字花园 | Vue 3 |
+| [yuer.dev](https://github.com/anyuer678/yuer.dev) | `portfolio` | 个人作品集 / 数字花园（[在线](https://anyuer678.github.io/yuer.dev/)） | Vue 3 |
 | [spotlight-wallpaper](https://github.com/anyuer678/spotlight-wallpaper) | `local-tool` | Windows 聚光壁纸（MIT） | Python |
 | [huayinlaoqiang](https://github.com/anyuer678/huayinlaoqiang) | `portfolio` | 非遗展示站（代码 MIT；媒体见 CREDITS） | HTML |
-| [eclipse-wasteland](https://github.com/anyuer678/eclipse-wasteland) | `portfolio` | Three.js 浏览器射击游戏 | TypeScript |
+| [eclipse-wasteland](https://github.com/anyuer678/eclipse-wasteland) | `portfolio` | Three.js 浏览器射击游戏（[在线](https://anyuer678.github.io/eclipse-wasteland/)） | TypeScript |
 | [design-assets](https://github.com/anyuer678/design-assets) | `engine` | AI 设计素材库（24 风格 meta + 画风纪律 + 视觉圣经；[预览站](https://anyuer678.github.io/design-assets/) · [Release v1.0](https://github.com/anyuer678/design-assets/releases/tag/v1.0) 99 文件全集） | CC0 |
 | [ai-toolbox](https://github.com/anyuer678/ai-toolbox) | `local-tool` | 本地 AI 工具用量监控 | Python |
-| [todo-list](https://github.com/anyuer678/todo-list) 等 | `archived` | 学习仓 / 上游工具归档 | — |
+| [todo-list](https://github.com/anyuer678/todo-list) / [key-tool](https://github.com/anyuer678/key-tool) 等 | `archived` | 学习仓 / 上游归档；key-tool 为已归档的 API Key 消费网关（替代见 keyvault） | — |
 
 ---
 
@@ -83,6 +85,7 @@
 - 质量门禁：keyvault / voiceconsole / dsh-logtimeline / desktoppet 增加 **覆盖率下限**（pytest-cov / vitest coverage，阈值贴当前基线，不造红灯）  
 - 素材：[design-assets](https://github.com/anyuer678/design-assets)（文档层引用，不改产品画风）
 - 发布：kb-ui npm **四包**（组件库 / 工具库 / 参考后端 / scoped 脚手架 `@yuer678/create-kb`——无 scope `create-kb` 是同名无关项目）；design-assets **Release v1.0**（99 文件样例全集 2048×1152）  
+- 门禁与保鲜（2026-09）：kb-ui E2E / 视觉回归 required、**npm audit 真门禁**（高危阻断合并）；案例站数据巡检刷新；27 仓 LICENSE 全覆盖、4 仓补 SECURITY / CONTRIBUTING  
 
 **Portfolio quality pass（2026-09）**：安全加固与 Dependabot **high** 已清，**仅剩** `extract-zip`（GHSA-7pqw-9j4j-h8q3 / GHSA-jmr9-qjv8-65gv）——npm 无 `>2.0.1` 补丁；不伪造 override，缓解措施见各仓 `docs/SECURITY-NOTES.md`。不做营销式夸大。
 
