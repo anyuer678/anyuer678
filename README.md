@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/anyuer678?tab=repositories"><img alt="repos" src="https://img.shields.io/badge/public_repos-27-blue"></a>
+  <a href="https://github.com/anyuer678?tab=repositories"><img alt="repos" src="https://img.shields.io/badge/public_repos-28-blue"></a>
   <img alt="status" src="https://img.shields.io/badge/portfolio-quality%20pass-lightgrey">
 </p>
 
@@ -59,7 +59,7 @@
 | [evocode](https://github.com/anyuer678/evocode) | `local-tool` | 软件体检：规则扫描为主，LLM 可选 | Java + Vue + Python |
 | [developer-intelligence](https://github.com/anyuer678/developer-intelligence) | `engine` | 仓库静态解析引擎（零 LLM）；GH collector **P0 未交付** | Python |
 | [chatez](https://github.com/anyuer678/chatez) | `portfolio` | Prompt + Skill 的 AI 客户端工作台（纯前端） | TypeScript |
-| [kb-ui](https://github.com/anyuer678/kb-ui) | `portfolio` | Vue 3 组件库 **73** 组件 · 46 主题 · npm [kb-ui-vue](https://www.npmjs.com/package/kb-ui-vue) | Vue 3 |
+| [kb-ui](https://github.com/anyuer678/kb-ui) | `portfolio` | Vue 3 组件库 **73** 组件 · 46 主题 · npm 四件套：[kb-ui-vue](https://www.npmjs.com/package/kb-ui-vue) · [@yuer678/kb-utils](https://www.npmjs.com/package/@yuer678/kb-utils) · [@yuer678/kb-api](https://www.npmjs.com/package/@yuer678/kb-api) · [@yuer678/create-kb](https://www.npmjs.com/package/@yuer678/create-kb) | Vue 3 |
 | [desktoppet](https://github.com/anyuer678/desktoppet) | `portfolio` | Electron 桌宠平台（角色包解耦；单测 **481** 例 + 覆盖率门禁） | Electron |
 | [codedrill](https://github.com/anyuer678/codedrill) | `portfolio` | 离线编程训练（SRS）；多端完成度不一 | Vue + Electron |
 | [upgrademate](https://github.com/anyuer678/upgrademate) | `local-tool` | 行级正则升级**检查清单**（非 AST 迁移） | Python |
@@ -69,7 +69,7 @@
 | [spotlight-wallpaper](https://github.com/anyuer678/spotlight-wallpaper) | `local-tool` | Windows 聚光壁纸（MIT） | Python |
 | [huayinlaoqiang](https://github.com/anyuer678/huayinlaoqiang) | `portfolio` | 非遗展示站（代码 MIT；媒体见 CREDITS） | HTML |
 | [eclipse-wasteland](https://github.com/anyuer678/eclipse-wasteland) | `portfolio` | Three.js 浏览器射击游戏 | TypeScript |
-| [design-assets](https://github.com/anyuer678/design-assets) | `engine` | AI 设计素材库骨架（24 风格 meta + 画风纪律 + 视觉圣经） | CC0 |
+| [design-assets](https://github.com/anyuer678/design-assets) | `engine` | AI 设计素材库（24 风格 meta + 画风纪律 + 视觉圣经；[预览站](https://anyuer678.github.io/design-assets/) · [Release v1.0](https://github.com/anyuer678/design-assets/releases/tag/v1.0) 99 文件全集） | CC0 |
 | [ai-toolbox](https://github.com/anyuer678/ai-toolbox) | `local-tool` | 本地 AI 工具用量监控 | Python |
 | [todo-list](https://github.com/anyuer678/todo-list) 等 | `archived` | 学习仓 / 上游工具归档 | — |
 
@@ -81,7 +81,8 @@
 - 诚实：DI / evocode / upgrademate 声明与能力对齐  
 - 治理：LICENSE 补齐、威胁模型、Issue 跟踪  
 - 质量门禁：keyvault / voiceconsole / dsh-logtimeline / desktoppet 增加 **覆盖率下限**（pytest-cov / vitest coverage，阈值贴当前基线，不造红灯）  
-- 素材：[design-assets](https://github.com/anyuer678/design-assets)（文档层引用，不改产品画风）  
+- 素材：[design-assets](https://github.com/anyuer678/design-assets)（文档层引用，不改产品画风）
+- 发布：kb-ui npm **四包**（组件库 / 工具库 / 参考后端 / scoped 脚手架 `@yuer678/create-kb`——无 scope `create-kb` 是同名无关项目）；design-assets **Release v1.0**（99 文件样例全集 2048×1152）  
 
 **Portfolio quality pass（2026-09）**：安全加固与 Dependabot **high** 已清，**仅剩** `extract-zip`（GHSA-7pqw-9j4j-h8q3 / GHSA-jmr9-qjv8-65gv）——npm 无 `>2.0.1` 补丁；不伪造 override，缓解措施见各仓 `docs/SECURITY-NOTES.md`。不做营销式夸大。
 
