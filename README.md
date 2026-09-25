@@ -87,10 +87,16 @@
 - 发布：kb-ui npm **四包**（组件库 / 工具库 / 参考后端 / scoped 脚手架 `@yuer678/create-kb`——无 scope `create-kb` 是同名无关项目）；design-assets **Release v1.0**（99 文件样例全集 2048×1152）  
 - 门禁与保鲜（2026-09）：kb-ui E2E / 视觉回归 required、**npm audit 真门禁**（高危阻断合并）；案例站数据巡检刷新；27 仓 LICENSE 全覆盖、4 仓补 SECURITY / CONTRIBUTING  
 
-**Portfolio quality pass（2026-09）**：安全加固与 Dependabot **high** 已清，**仅剩** `extract-zip`（GHSA-7pqw-9j4j-h8q3 / GHSA-jmr9-qjv8-65gv）——npm 无 `>2.0.1` 补丁；不伪造 override，缓解措施见各仓 `docs/SECURITY-NOTES.md`。不做营销式夸大。
+**Portfolio quality pass（2026-09）**：安全加固完成。Dependabot 当前 **OPEN = 8**，全部为上游无补丁的构建工具链告警，如实披露如下——
+
+- `extract-zip`（HIGH，GHSA-7pqw-9j4j-h8q3 / GHSA-jmr9-qjv8-65gv）× codedrill、desktoppet：npm 最新仍为 2.0.1（漏洞范围 `<= 2.0.1`），无可用补丁
+- `vite` / `esbuild`（HIGH×1 + MODERATE×3）× kb-ui 文档站：来自 vitepress ^1.x 的传递依赖（vitepress 1.6.4 锁 `vite ^5.4.14`，2.x 仍在 alpha），组件库自身 vite 已是 ^8.3.0，文档站工具链在 vitepress 2.0 正式发布前结构性无法修复
+
+以上均为 devDependencies / 构建期依赖，不进任何运行时产物。不伪造 override、不做营销式夸大；缓解说明见各仓 `docs/SECURITY-NOTES.md`。
 
 ---
 
 <p align="center">
   <em>"软件不是一次写成的作品，而是在不断使用和修改中成长的系统。"</em>
 </p>
+
