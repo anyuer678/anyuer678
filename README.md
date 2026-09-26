@@ -35,8 +35,8 @@
       <h3><a href="https://github.com/anyuer678/polycodehub">PolycodeHub</a> <code>portfolio</code></h3>
       <p>全栈在线判题平台（OJ）</p>
       <p><code>Next.js</code> <code>Express</code> <code>Spring Boot</code> <code>FastAPI</code></p>
-      <p>seccomp/rlimit 进程级沙箱 · RabbitMQ 异步判题 · prod compose 不对宿主暴露中间件</p>
-      <p>非生产就绪 · 沙箱为黑名单进程级隔离，非多租户容器</p>
+      <p>四层沙箱（2026-09）：seccomp 黑名单/白名单 + cgroup v2 + ns/jail · RabbitMQ 异步判题 · prod compose 不对宿主暴露中间件</p>
+      <p>非生产就绪 · 非多租户容器（自评与未修复项见 THREAT_MODEL）· <a href="https://anyuer678.github.io/yuer.dev/notes/polycodehub-sandbox-notes/">沙箱演进长文</a></p>
       <p>▸ <a href="https://anyuer678.github.io/polycodehub/">在线演示</a></p>
     </td>
     <td width="50%">
@@ -76,7 +76,8 @@
 
 ### 近期工程重点（A+ 轨）
 
-- 聚焦（2026-09）：作品集瘦身——upgrademate / stargrave / ai-toolbox **毕业归档**，维护精力集中于 polycodehub / kb-ui / lumen / evocode / desktoppet / codedrill 与进行中的新语言项目
+- 沙箱演进（2026-09）：polycodehub 判题沙箱从 136 行 seccomp 黑名单升级为 **trace 驱动白名单 + cgroup v2 按判题隔离 + NET/PID/MOUNT ns + chroot jail**（PR #18/#19/#20，adversarial CI 实测抓出并修复 12 个真 bug）；[演进长文](https://anyuer678.github.io/yuer.dev/notes/polycodehub-sandbox-notes/)
+- 聚焦（2026-09）：作品集瘦身——upgrademate / stargrave / ai-toolbox **毕业归档**，维护精力集中于 polycodehub / kb-ui / lumen / evocode / desktoppet / codedrill；**冻结新仓，转向外部验证**
 - 安全：lumen 权限硬化、voiceconsole 确认权拆分、keyvault step-up、polycodehub prod compose  
 - 诚实：DI / evocode 声明与能力对齐  
 - 治理：LICENSE 补齐、威胁模型、Issue 跟踪  
