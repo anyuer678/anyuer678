@@ -64,23 +64,21 @@
 | [kb-ui](https://github.com/anyuer678/kb-ui) | `portfolio` | Vue 3 组件库 **73** 组件 · 46 主题 · npm 四件套：[kb-ui-vue](https://www.npmjs.com/package/kb-ui-vue) · [@yuer678/kb-utils](https://www.npmjs.com/package/@yuer678/kb-utils) · [@yuer678/kb-api](https://www.npmjs.com/package/@yuer678/kb-api) · [@yuer678/create-kb](https://www.npmjs.com/package/@yuer678/create-kb)（[在线](https://anyuer678.github.io/kb-ui/)） | Vue 3 |
 | [desktoppet](https://github.com/anyuer678/desktoppet) | `portfolio` | Electron 桌宠平台（角色包解耦；单测 **481** 例 + 覆盖率门禁） | Electron |
 | [codedrill](https://github.com/anyuer678/codedrill) | `portfolio` | 离线编程训练（SRS）；多端完成度不一（[在线](https://anyuer678.github.io/codedrill/)） | Vue + Electron |
-| [upgrademate](https://github.com/anyuer678/upgrademate) | `local-tool` | 行级正则升级**检查清单**（非 AST 迁移） | Python |
 | [picren](https://github.com/anyuer678/picren) | `local-tool` | 图片批量 AI 重命名（默认 dry-run） | Python |
-| [stargrave](https://github.com/anyuer678/stargrave) | `local-tool` | GitHub star 清理建议器 | Python |
 | [yuer.dev](https://github.com/anyuer678/yuer.dev) | `portfolio` | 个人作品集 / 数字花园（[在线](https://anyuer678.github.io/yuer.dev/)） | Vue 3 |
 | [spotlight-wallpaper](https://github.com/anyuer678/spotlight-wallpaper) | `local-tool` | Windows 聚光壁纸（MIT） | Python |
 | [huayinlaoqiang](https://github.com/anyuer678/huayinlaoqiang) | `portfolio` | 非遗展示站（代码 MIT；媒体见 CREDITS） | HTML |
 | [eclipse-wasteland](https://github.com/anyuer678/eclipse-wasteland) | `portfolio` | Three.js 浏览器射击游戏（[在线](https://anyuer678.github.io/eclipse-wasteland/)） | TypeScript |
 | [design-assets](https://github.com/anyuer678/design-assets) | `engine` | AI 设计素材库（24 风格 meta + 画风纪律 + 视觉圣经；[预览站](https://anyuer678.github.io/design-assets/) · [Release v1.0](https://github.com/anyuer678/design-assets/releases/tag/v1.0) 99 文件全集） | CC0 |
-| [ai-toolbox](https://github.com/anyuer678/ai-toolbox) | `local-tool` | 本地 AI 工具用量监控 | Python |
-| [todo-list](https://github.com/anyuer678/todo-list) / [key-tool](https://github.com/anyuer678/key-tool) 等 | `archived` | 学习仓 / 上游归档；key-tool 为已归档的 API Key 消费网关（替代见 keyvault） | — |
+| [todo-list](https://github.com/anyuer678/todo-list) / [key-tool](https://github.com/anyuer678/key-tool) 等 | `archived` | 学习仓 / 上游归档；key-tool 为已归档的 API Key 消费网关（替代见 keyvault）；upgrademate / stargrave / ai-toolbox 已于 2026-09 毕业归档（聚焦核心项目） | — |
 
 ---
 
 ### 近期工程重点（A+ 轨）
 
+- 聚焦（2026-09）：作品集瘦身——upgrademate / stargrave / ai-toolbox **毕业归档**，维护精力集中于 polycodehub / kb-ui / lumen / evocode / desktoppet / codedrill 与进行中的新语言项目
 - 安全：lumen 权限硬化、voiceconsole 确认权拆分、keyvault step-up、polycodehub prod compose  
-- 诚实：DI / evocode / upgrademate 声明与能力对齐  
+- 诚实：DI / evocode 声明与能力对齐  
 - 治理：LICENSE 补齐、威胁模型、Issue 跟踪  
 - 质量门禁：keyvault / voiceconsole / dsh-logtimeline / desktoppet 增加 **覆盖率下限**（pytest-cov / vitest coverage，阈值贴当前基线，不造红灯）  
 - 素材：[design-assets](https://github.com/anyuer678/design-assets)（文档层引用，不改产品画风）
