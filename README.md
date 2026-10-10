@@ -51,28 +51,40 @@
 
 ---
 
-### 项目一览
+### 作品体系（三主线）
 
-| 项目 | 状态 | 描述 | 技术 |
-|------|------|------|------|
-| [dsh-logtimeline](https://github.com/anyuer678/dsh-logtimeline) | `engine` | 中文自然语言日志时间查询（DSH 插件） | Python |
-| [keyvault](https://github.com/anyuer678/keyvault) | `local-tool` | API 密钥保险箱（AES-256-GCM + step-up Web） | Python |
-| [voiceconsole](https://github.com/anyuer678/voiceconsole) | `local-tool` | 语音指令 MCP（本机确认权 + 路径沙箱） | Python |
-| [evocode](https://github.com/anyuer678/evocode) | `local-tool` | 软件体检：规则扫描为主，LLM 可选（[在线](https://anyuer678.github.io/evocode/)） | Java + Vue + Python |
-| [developer-intelligence](https://github.com/anyuer678/developer-intelligence) | `engine` | 仓库静态解析引擎（零 LLM）；GH collector **P0 未交付** | Python |
-| [chatez](https://github.com/anyuer678/chatez) | `portfolio` | Prompt + Skill 的 AI 客户端工作台（纯前端，[在线](https://anyuer678.github.io/chatez/)） | TypeScript |
-| [kb-ui](https://github.com/anyuer678/kb-ui) | `portfolio` | Vue 3 组件库 **73** 组件 · 46 主题 · npm 四件套：[kb-ui-vue](https://www.npmjs.com/package/kb-ui-vue) · [@yuer678/kb-utils](https://www.npmjs.com/package/@yuer678/kb-utils) · [@yuer678/kb-api](https://www.npmjs.com/package/@yuer678/kb-api) · [@yuer678/create-kb](https://www.npmjs.com/package/@yuer678/create-kb)（[在线](https://anyuer678.github.io/kb-ui/)） | Vue 3 |
-| [desktoppet](https://github.com/anyuer678/desktoppet) | `portfolio` | Electron 桌宠平台（角色包解耦；单测 **470+** 例 + 覆盖率门禁） | Electron |
-| [codedrill](https://github.com/anyuer678/codedrill) | `portfolio` | 离线编程训练（SRS）；多端完成度不一（[在线](https://anyuer678.github.io/codedrill/)） | Vue + Electron |
-| [picren](https://github.com/anyuer678/picren) | `local-tool` | 图片批量 AI 重命名（默认 dry-run） | Python |
-| [yuer.dev](https://github.com/anyuer678/yuer.dev) | `portfolio` | 个人作品集 / 数字花园（[在线](https://anyuer678.github.io/yuer.dev/)） | Vue 3 |
-| [spotlight-wallpaper](https://github.com/anyuer678/spotlight-wallpaper) | `local-tool` | Windows 聚光壁纸（MIT） | Python |
-| [huayinlaoqiang](https://github.com/anyuer678/huayinlaoqiang) | `portfolio` | 非遗展示站（代码 MIT；媒体见 CREDITS） | HTML |
-| [eclipse-wasteland](https://github.com/anyuer678/eclipse-wasteland) | `portfolio` | Three.js 浏览器射击游戏（[在线](https://anyuer678.github.io/eclipse-wasteland/)） | TypeScript |
-| [design-assets](https://github.com/anyuer678/design-assets) | `engine` | AI 设计素材库（24 风格 meta + 画风纪律 + 视觉圣经；[预览站](https://anyuer678.github.io/design-assets/) · [Release v1.0](https://github.com/anyuer678/design-assets/releases/tag/v1.0) 99 文件全集） | CC0 |
-| [todo-list](https://github.com/anyuer678/todo-list) / [key-tool](https://github.com/anyuer678/key-tool) 等 | `archived` | 学习仓 / 上游归档；key-tool 为已归档的 API Key 消费网关（替代见 keyvault）；upgrademate / stargrave / ai-toolbox 已于 2026-09 毕业归档（聚焦核心项目） | — |
+> 每条主线与联动关系均可在各仓 README「生态」区块与代码中验证。体系地图见 [yuer.dev/map](https://anyuer678.github.io/yuer.dev/map)。
 
----
+**① AI Agent 生态**（核心 [lumen](https://github.com/anyuer678/lumen)——24/7 Agent Runtime，内置 MCP 注册与分级权限）
+
+| 项目 | 生态角色 | 描述 |
+|------|---------|------|
+| [voiceconsole](https://github.com/anyuer678/voiceconsole) | MCP 插件 · 语音入口 | 语音指令 MCP（本机确认权 + 路径沙箱），可注册进 lumen |
+| [dsh-logtimeline](https://github.com/anyuer678/dsh-logtimeline) | MCP 插件 · 日志查询 | 中文自然语言日志时间查询（DSH 插件） |
+| [keyvault](https://github.com/anyuer678/keyvault) | 密钥设施 | API 密钥保险箱（AES-256-GCM + step-up Web），生态公共前置 |
+| [chatez](https://github.com/anyuer678/chatez) | 平级工作台 | Prompt + Skill 的 AI 客户端工作台（纯前端，[在线](https://anyuer678.github.io/chatez/)） |
+
+**② UI / 工程基建**（自建组件库，被生态项目真实消费）
+
+| 项目 | 生态角色 | 描述 |
+|------|---------|------|
+| [kb-ui](https://github.com/anyuer678/kb-ui) | 组件库 · npm 四件套 | Vue 3 **73** 组件 · 46 主题：[kb-ui-vue](https://www.npmjs.com/package/kb-ui-vue) · [@yuer678/kb-utils](https://www.npmjs.com/package/@yuer678/kb-utils) · [@yuer678/kb-api](https://www.npmjs.com/package/@yuer678/kb-api) · [@yuer678/create-kb](https://www.npmjs.com/package/@yuer678/create-kb)（[在线](https://anyuer678.github.io/kb-ui/)）；**yuer.dev 的作品地图页由其驱动** |
+| [yuer.dev](https://github.com/anyuer678/yuer.dev) | 门面 + 作品地图 | 个人作品集 / 数字花园（[在线](https://anyuer678.github.io/yuer.dev/) · [地图](https://anyuer678.github.io/yuer.dev/map)） |
+| [design-assets](https://github.com/anyuer678/design-assets) | 设计资产 | AI 设计素材库（24 风格 meta + 画风纪律 + 视觉圣经；[预览站](https://anyuer678.github.io/design-assets/) · [Release v1.0](https://github.com/anyuer678/design-assets/releases/tag/v1.0) 99 文件全集） |
+
+**③ 训练 / 评测平台**（核心 [polycodehub](https://github.com/anyuer678/polycodehub)——四层沙箱在线判题）
+
+| 项目 | 生态角色 | 描述 |
+|------|---------|------|
+| [codedrill](https://github.com/anyuer678/codedrill) | 离线训练 | SRS 编程训练 · 635 题（多端完成度不一，[在线](https://anyuer678.github.io/codedrill/)） |
+
+**独立作品**（与主线无耦合，诚实单列）
+
+[evocode](https://github.com/anyuer678/evocode) · [developer-intelligence](https://github.com/anyuer678/developer-intelligence) · [desktoppet](https://github.com/anyuer678/desktoppet) · [picren](https://github.com/anyuer678/picren) · [spotlight-wallpaper](https://github.com/anyuer678/spotlight-wallpaper) · [huayinlaoqiang](https://github.com/anyuer678/huayinlaoqiang) · [eclipse-wasteland](https://github.com/anyuer678/eclipse-wasteland)
+
+| 归档 | 状态 | 说明 |
+|------|------|------|
+| [todo-list](https://github.com/anyuer678/todo-list) / [key-tool](https://github.com/anyuer678/key-tool) 等 | `archived` | 学习仓 / 上游归档；key-tool 为已归档的 API Key 消费网关（替代见 keyvault）；upgrademate / stargrave / ai-toolbox 已于 2026-09 毕业归档（聚焦核心项目） |
 
 ### 近期工程重点（A+ 轨）
 
