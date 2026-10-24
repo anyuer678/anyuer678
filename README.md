@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://anyuer678.github.io/yuer.dev/"><img alt="site" src="https://img.shields.io/badge/%E6%A1%88%E4%BE%8B%E7%AB%99-yuer.dev-8b5cf6"></a>
-  <a href="https://github.com/anyuer678?tab=repositories"><img alt="repos" src="https://img.shields.io/badge/public_repos-28-blue"></a>
+  <a href="https://github.com/anyuer678?tab=repositories"><img alt="repos" src="https://img.shields.io/badge/public_repos-29-blue"></a>
   <img alt="status" src="https://img.shields.io/badge/portfolio-quality%20pass-lightgrey">
 </p>
 
@@ -80,7 +80,7 @@
 
 **独立作品**（与主线无耦合，诚实单列）
 
-[evocode](https://github.com/anyuer678/evocode) · [developer-intelligence](https://github.com/anyuer678/developer-intelligence) · [desktoppet](https://github.com/anyuer678/desktoppet) · [picren](https://github.com/anyuer678/picren) · [spotlight-wallpaper](https://github.com/anyuer678/spotlight-wallpaper) · [huayinlaoqiang](https://github.com/anyuer678/huayinlaoqiang) · [eclipse-wasteland](https://github.com/anyuer678/eclipse-wasteland)
+[evocode](https://github.com/anyuer678/evocode) · [developer-intelligence](https://github.com/anyuer678/developer-intelligence) · [desktoppet](https://github.com/anyuer678/desktoppet) · [picren](https://github.com/anyuer678/picren) · [spotlight-wallpaper](https://github.com/anyuer678/spotlight-wallpaper) · [huayinlaoqiang](https://github.com/anyuer678/huayinlaoqiang)（内容封存） · [eclipse-wasteland](https://github.com/anyuer678/eclipse-wasteland)
 
 | 归档 | 状态 | 说明 |
 |------|------|------|
