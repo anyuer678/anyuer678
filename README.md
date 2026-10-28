@@ -98,13 +98,15 @@
 - 发布：kb-ui npm **四包**（组件库 / 工具库 / 参考后端 / scoped 脚手架 `@yuer678/create-kb`——无 scope `create-kb` 是同名无关项目）；design-assets **Release v1.0**（99 文件样例全集 2048×1152）  
 - 门禁与保鲜（2026-09）：kb-ui E2E / 视觉回归 required、**npm audit 真门禁**（高危阻断合并）；案例站数据巡检刷新；27 仓 LICENSE 全覆盖、4 仓补 SECURITY / CONTRIBUTING（扩仓后的许可证现状见下方「合规」条）  
 
-**Portfolio quality pass（2026-10）**：安全加固收口。Dependabot 当前 **OPEN = 0**（2026-10-28 复核 41 个仓），处置口径如下——
+**Portfolio quality pass（2026-10）**：安全加固收口。Dependabot 当前 **OPEN = 2**（2026-10-28 逐仓复核：26 个仓开启告警、5 个无依赖清单的仓保持关闭），处置口径如下——
 
 - `extract-zip`（HIGH，GHSA-7pqw-9j4j-h8q3 / GHSA-jmr9-qjv8-65gv）× codedrill、desktoppet：随 **Electron 42** 升级被 `@electron-internal/extract-zip` 取代，告警已消失（npm 上 `extract-zip@2.0.1` 本身仍是漏洞版本、无补丁，所以不是"修好了"，而是换掉了实现）
 - `vite` ×8 / `esbuild` ×1 × kb-ui 文档站：9 条已全部消除或缓解，逐条现状写在 [kb-ui 的 SECURITY-NOTES](https://github.com/anyuer678/kb-ui/blob/master/docs/SECURITY-NOTES.md)——vite 四条的影响区间是 `8.3.0–8.3.2` / `8.0.x`，而仓内是 8.3.5；四条 `launch-editor` 由 override 拉到 2.14.2；`esbuild` 由 0.21.5 提到 0.25.12（`docs:build` 13.68s 通过）。唯一保留的钉死是 `vite@^5.4.14 → 5.4.21`：vitepress 1.6.4 的 peer 只到 5.x，解除要等 vitepress 2 GA
+- 本轮新开启告警的 8 个仓（LastTap / world / shijing / ziyou-shi / course-design-2026 / wolai-paikebiao / quote-rectifier / cs-notes-public）首次扫描共 **82 条**，已清零 **80**：shijing 24 条（`next` 16.3.1 → 16.4.3，5 条 critical 全消）、quote-rectifier 51 条（`electron` 44.10.0 起 + undici / fast-uri / brace-expansion 分线 override）、ziyou-shi 5 条（`@capacitor/*` 8.5.3 + `uuid` 11.1.1）
+- 保留且**明确不 dismiss** 的 2 条：`pdfjs-dist`（high，cs-notes-public）——线上真正跑的是 `docs/public/pdfjs/pdf.min.js`（3.11.174），改它要做 ESM 迁移 + 构建验证，仓库无 CI 所以没盲改；`glib`（medium，wolai-paikebiao）——Tauri 的 `gtk 0.18` 锁死 `glib 0.18`，只影响 Linux target。两条的修法与复审条件都写在各自仓的 `SECURITY-NOTES.md`
 - 合规：31 个非归档仓中 **29 个**已声明许可证（MIT）；cs-notes-reference（开源笔记/教材代码）与 cs-notes-public（408 + 考研数学笔记整理）**刻意不声明**——整理他人内容的仓库不套用 MIT
 
-以上均为 devDependencies / 构建期依赖，不进任何运行时产物。不伪造 override、不做营销式夸大；缓解说明见 codedrill / desktoppet / kb-ui 三个仓的 `docs/SECURITY-NOTES.md`。
+`cs-notes-public` 的 pdfjs 那条**确实进浏览器产物**，不属于构建期依赖，所以它保留 OPEN，而不是被当作开发工具链问题略过。不伪造 override、不做营销式夸大；说明见 codedrill / desktoppet / kb-ui / wolai-paikebiao / cs-notes-public 的 ``SECURITY-NOTES.md``。
 
 ---
 
