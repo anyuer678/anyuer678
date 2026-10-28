@@ -102,6 +102,7 @@
 
 - `extract-zip`（HIGH，GHSA-7pqw-9j4j-h8q3 / GHSA-jmr9-qjv8-65gv）× codedrill、desktoppet：随 **Electron 42** 升级被 `@electron-internal/extract-zip` 取代，告警已消失（npm 上 `extract-zip@2.0.1` 本身仍是漏洞版本、无补丁，所以不是"修好了"，而是换掉了实现）
 - `vite` ×8 / `esbuild` ×1 × kb-ui 文档站：9 条按 `tolerable_risk` 关闭并逐条写明理由——vitepress 1.6.4 仍锁 `vite ^5.4.14`（2.x 仍 alpha），组件库自身 vite 为 `^8.3.5`；实测把 esbuild 强升到 0.28 会直接打断文档站构建，在 vitepress 2 正式版发布前结构性无法修复
+- 合规：31 个非归档仓中 **29 个**已声明许可证（MIT）；cs-notes-reference（开源笔记/教材代码）与 cs-notes-public（408 + 考研数学笔记整理）**刻意不声明**——整理他人内容的仓库不套用 MIT
 
 以上均为 devDependencies / 构建期依赖，不进任何运行时产物。不伪造 override、不做营销式夸大；缓解说明见各仓 `docs/SECURITY-NOTES.md`。
 
