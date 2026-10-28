@@ -96,7 +96,7 @@
 - 质量门禁：keyvault / voiceconsole / dsh-logtimeline / desktoppet 增加 **覆盖率下限**（pytest-cov / vitest coverage，阈值贴当前基线，不造红灯）  
 - 素材：[design-assets](https://github.com/anyuer678/design-assets)（文档层引用，不改产品画风）
 - 发布：kb-ui npm **四包**（组件库 / 工具库 / 参考后端 / scoped 脚手架 `@yuer678/create-kb`——无 scope `create-kb` 是同名无关项目）；design-assets **Release v1.0**（99 文件样例全集 2048×1152）  
-- 门禁与保鲜（2026-09）：kb-ui E2E / 视觉回归 required、**npm audit 真门禁**（高危阻断合并）；案例站数据巡检刷新；27 仓 LICENSE 全覆盖、4 仓补 SECURITY / CONTRIBUTING（扩仓后的许可证现状见下方「合规」条）  
+- 门禁与保鲜（2026-09，2026-10 复核）：kb-ui 的四项 required check 实测为 `pattern-scan` / `Lint · Typecheck · Test · Build` / `claims` / `E2E (playground + docs)` / `Visual regression`，其中 `Dependency audit`（`pnpm audit --prod --audit-level=high`）是构建 job 内的步骤，所以「高危阻断合并」成立；案例站（chatez）当前**没有**定时数据刷新 workflow（仓内唯一 cron 是 secret-scan），数据更新走手动流程；27 仓 LICENSE 全覆盖、11 仓已有 SECURITY 与 CONTRIBUTING（扩仓后的许可证现状见下方「合规」条）
 
 **Portfolio quality pass（2026-10）**：安全加固收口。Dependabot 当前 **OPEN = 2**（2026-10-28 逐仓复核：26 个仓开启告警、5 个无依赖清单的仓保持关闭），处置口径如下——
 
