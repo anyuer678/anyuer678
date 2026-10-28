@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://anyuer678.github.io/yuer.dev/"><img alt="site" src="https://img.shields.io/badge/%E6%A1%88%E4%BE%8B%E7%AB%99-yuer.dev-8b5cf6"></a>
-  <a href="https://github.com/anyuer678?tab=repositories"><img alt="repos" src="https://img.shields.io/badge/public_repos-29-blue"></a>
+  <a href="https://github.com/anyuer678?tab=repositories"><img alt="repos" src="https://img.shields.io/badge/public_repos-31-blue"></a>
   <img alt="status" src="https://img.shields.io/badge/portfolio-quality%20pass-lightgrey">
 </p>
 
@@ -89,7 +89,7 @@
 ### 近期工程重点（A+ 轨）
 
 - 沙箱演进（2026-09）：polycodehub 判题沙箱从 136 行 seccomp 黑名单升级为 **trace 驱动白名单 + cgroup v2 按判题隔离 + NET/PID/MOUNT ns + chroot jail**（PR #18/#19/#20，adversarial CI 实测抓出并修复 12 个真 bug）；[演进长文](https://anyuer678.github.io/yuer.dev/notes/polycodehub-sandbox-notes/)
-- 聚焦（2026-09）：作品集瘦身——upgrademate / stargrave / ai-toolbox **毕业归档**，维护精力集中于 polycodehub / kb-ui / lumen / evocode / desktoppet / codedrill；**冻结新仓，转向外部验证**
+- 聚焦（2026-09）：作品集瘦身——upgrademate / stargrave / ai-toolbox **毕业归档**，维护精力集中于 polycodehub / kb-ui / lumen / evocode / desktoppet / codedrill；**新仓只作实验登记，不纳入维护承诺**（time-archaeologist / world 为实验仓）；重心转向外部验证
 - 安全：lumen 权限硬化、voiceconsole 确认权拆分、keyvault step-up、polycodehub prod compose  
 - 诚实：DI / evocode 声明与能力对齐  
 - 治理：LICENSE 补齐、威胁模型、Issue 跟踪  
